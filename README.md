@@ -31,7 +31,7 @@ _Note: you may need to install `pytest` using `pip install pytest`._
 
 ```sh
 # Set an environment variable with your GCP Project ID
-export GOOGLE_CLOUD_PROJECT=test-django-with-mysql-vm
+export GOOGLE_CLOUD_PROJECT==<PROJECT_ID>
 
 # Submit a build using Google Cloud Build
 gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/helloworld
